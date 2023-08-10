@@ -26,8 +26,8 @@ public class ClientController {
     }
 
     @GetMapping("/clients/{id}")
-    public ClientDTO getClientById(@PathVariable Long idClient){
-        Optional<Client> client = clientRepository.findById(idClient);
+    public ClientDTO getClientById(@PathVariable Long id){
+        Optional<Client> client = clientRepository.findById(id);
         return new ClientDTO(client.get());
     }
 }
