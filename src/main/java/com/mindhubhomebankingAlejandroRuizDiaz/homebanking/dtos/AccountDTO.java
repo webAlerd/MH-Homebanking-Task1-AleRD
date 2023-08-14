@@ -12,7 +12,7 @@ public class AccountDTO {
     private Long id;
     private String number;
     private LocalDate creationDate;
-    private int balance;
+    private double balance;
     private Set<TransactionDTO> transactions = new HashSet<>();
 
     public AccountDTO(Account account){
@@ -39,7 +39,7 @@ public class AccountDTO {
         return creationDate;
     }
 
-    public int getBalance() {
+    public double getBalance() {
         return balance;
     }
 }
