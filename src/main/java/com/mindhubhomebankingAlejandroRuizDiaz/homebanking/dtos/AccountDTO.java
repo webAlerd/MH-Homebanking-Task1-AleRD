@@ -1,7 +1,6 @@
 package com.mindhubhomebankingAlejandroRuizDiaz.homebanking.dtos;
 
 import com.mindhubhomebankingAlejandroRuizDiaz.homebanking.models.Account;
-import com.mindhubhomebankingAlejandroRuizDiaz.homebanking.models.Transaction;
 
 import java.time.LocalDate;
 import java.util.HashSet;
